@@ -13,7 +13,6 @@ h1 {
 h2{
   margin:0px 0px 10px 10px;
   text-align: right;
-  background-color: #559A04;
   width: 50%;
   float: right;
   border: 1px solid black;
@@ -21,8 +20,25 @@ h2{
   font-family: Monaco;
   font-size: 125%;
   padding: 1%;
+  background-color: #559A04;
+
 
 }
+
+#head1{
+  background-color: #559A04;
+
+}
+
+#head2{
+  background-color: black;
+
+}
+#head3{
+  background-color: blueviolet;
+
+}
+
 div {
   float: left;
   background-color: #A52A2A;
