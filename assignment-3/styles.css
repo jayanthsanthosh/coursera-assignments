@@ -1,0 +1,95 @@
+/* Custom background color for the navbar */
+
+div{
+}
+
+body{
+	position: absolute;
+	background-color: lightblue;
+	padding: 10px;
+
+}
+
+.navbar {
+  background-color: lightpink; /* Replace with your desired color code */
+  padding: 0px;
+  margin:-10px;
+}
+
+h1{
+	text-align: center;
+	margin: 20px;
+}
+.container-fluid{
+	padding-left: 0px;
+	padding-right: 0px;
+
+}
+
+
+/* Custom text color for navbar links */
+.navbar .nav-link {
+  color: #ffffff; /* White text color */
+}
+
+.navbar-toggler{
+	margin-right: 5%;
+}
+.navbar-brand{
+	padding-left: 5%;
+	color: maroon;
+	text-transform: uppercase;
+	font-family: Baufra;
+	font-size: 2em;
+}
+
+.nav-item{
+	border: 1px solid black;
+	color: maroon;
+	width=100%
+
+}
+.nav-item:nth-child(even){
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	border-bottom: 0px solid black;
+	border-top: 0px solid black;
+
+}
+.nav-link{
+	text-align: center;
+	margin-bottom: 0px;
+
+}
+.nav-link:hover{
+	color: maroon;
+}
+
+.box{
+
+	background-color: lightpink;
+	margin-bottom: 10px;
+
+	padding: 10px;
+	float: left;
+}
+
+
+}
+#navbarNav{
+	visible
+}
+
+h2{
+	text-align: center;
+}
+a{}
+
+@media (min-width: 576px) and (max-width: 768px){
+
+ .col-sm-6{
+ 	width: calc(50% - 10px);
+ 	margin-right: 5px;
+ 	margin-left: 5px;
+}
+}
